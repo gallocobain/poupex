@@ -4,8 +4,7 @@ require 'capybara/cucumber'
 require 'site_prism'
 require 'capybara/dsl'
 require 'capybara/poltergeist'
-#require 'phantomjs/poltergeist'
-#require 'faker'
+
 
 
 Capybara.register_driver :selenium do |app|

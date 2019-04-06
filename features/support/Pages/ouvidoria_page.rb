@@ -46,6 +46,6 @@ class OuvidoriaPage < SitePrism::Page
     input_campo_observacao.set dados['Observação']
     input_capcha.set dados['Capcha']
     button_enviar.click
-    sleep (1)
+    sleep 6
     end
 end
