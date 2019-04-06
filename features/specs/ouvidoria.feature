@@ -31,10 +31,10 @@ Cenario: Preencher Formulario Contato
       | Capcha               | 12345                            |
 
     Quando preencho o formulario de contato
-    Então vejo a mensagem de sucesso "Formulário registrado com sucesso!"
+    Então vejo a mensagem de sucesso "Formulario registrado com sucesso!"
 
 @ouvidoria_capcha_Invalido
-Cenario: Preenchimento do formulario com capcha inválido
+Cenario: Preenchimento do formulario com capcha invalido
 
     E possuo os seguintes dados:
 
