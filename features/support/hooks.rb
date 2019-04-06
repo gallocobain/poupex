@@ -14,3 +14,4 @@ After do |scenario|
     embed(screenshot, 'image/png', 'Clique aqui para ver a evidência!')
 
   end
+  
