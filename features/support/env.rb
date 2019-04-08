@@ -16,4 +16,4 @@ Capybara.configure do |config|
     config.app_host = 'http://www.poupex.com.br'
 end
 
-Capybara.default_max_wait_time = 5
+Capybara.default_max_wait_time = 5 
