@@ -2,8 +2,10 @@ Before do
     #visit 'https://aw.fhe.org.br:8440/formulariosweb/formContatoOuvidoria?origem=poupex'
 
     @ouvidoria = OuvidoriaPage.new
+    @UsuarioWeb = UsuarioInvalidoPage.new
 
     page.current_window.resize_to(1280, 800)
+    
 end
 
 After do |scenario|

@@ -24,7 +24,7 @@ Quando("preencho o formulario de contato com capcha inválido") do
 end
   
 Então("vejo as mensagens {string} e {string}") do |mensagem_erro, mensagem_capcha_invalido|
-    
+   
     expect(@ouvidoria.mensagem_erro.text).to eql mensagem_erro
     expect(@ouvidoria.mensagem_capcha_invalido.text).to eql mensagem_capcha_invalido
 end

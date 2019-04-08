@@ -19,8 +19,8 @@ class OuvidoriaPage < SitePrism::Page
     element :input_capcha, '#campoCaptcha'
     element :button_enviar, '.btn-primary'
     element :mensagem_sucesso, '.alert-success'
-    element :mensagem_capcha_invalido, '.alert-warning h4'
-    element :mensagem_erro, '.lead'
+    element :mensagem_capcha_invalido, '#wrap > div > div.alert.alert-warning'
+    element :mensagem_erro, '#wrap > div > p.lead' 
 
 
     def formulario_contato(dados)
@@ -46,6 +46,6 @@ class OuvidoriaPage < SitePrism::Page
     input_campo_observacao.set dados['Observação']
     input_capcha.set dados['Capcha']
     button_enviar.click
-    sleep 6
+    sleep 1
     end
 end
