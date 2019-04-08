@@ -9,4 +9,4 @@ Funcionalidade: Atendimento Web
 Cenário: Login inválido no atendimento Web
     Dado que sou um usuário e acesso a página para login
     Quando tento realizar login com os dados CPF "<458874152666>" e senha "<123456789>"
-    Então vejo a mensagem "Erro na autenticação: Usuário ou Senha inválidos. ×" 
+    Então vejo a mensagem "Erro na autenticação: Usuário ou Senha inválidos. ×"  
